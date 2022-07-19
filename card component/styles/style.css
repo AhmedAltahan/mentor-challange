@@ -49,13 +49,6 @@ div.img img {
 
 }
 
-
-/* .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 /* End design div.image */
 
 /* ****************************************************************** */
@@ -139,7 +132,68 @@ button:hover {
 /* ****************************************************************** */
 /* ****************************************************************** */
 
-@media screen and (max-width : 596px) {
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 600px) {
+
+
+    /* ****************************************************************** */
+
+/* Start design main card */
+
+div.main {
+    height: 718px; 
+}
+
+div.card {
+    margin: 0 20px;
+}
+
+/* End design main card */
+
+/* ****************************************************************** */
+/* ****************************************************************** */
+
+/* Start design div.image */
+
+div.card div.img {
+    width: 100%; 
+}
+
+div.img img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+}
+
+/* End design div.image */
+
+/* ****************************************************************** */
+/* ****************************************************************** */
+
+/* Start Design div.content */
+
+div.content {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+button {
+    margin-left: 45px;
+}
+
+/* End Design div.content */
+
+/* ****************************************************************** */
 
 }
 

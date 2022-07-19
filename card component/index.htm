@@ -25,8 +25,13 @@
         <div class="card clearfix">
 
             <div class="img">
-                <img src="/img/image-product-desktop.jpg" alt="Chanel Perfum" >
-                <!-- <img src="/img/image-product-mobile.jpg" alt="Chanel Perfum" class="two"> -->
+
+                <picture>
+                    <source srcset="/img/image-product-mobile.jpg" media="(max-width: 600px)">
+                    <source srcset="/img/image-product-desktop.jpg">
+                    <img src="/img/image-product-desktop.jpg" alt="Chanel Perfum" >
+                </picture>
+                
             </div>
     
             <div class="content">
